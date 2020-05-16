@@ -7,4 +7,4 @@ wordcount : wordcount.o
 wordcount.o : wordcount.c
 
 clean :
-	rm *.o
+	rm -fr wordcount $(OBJS) *.o
